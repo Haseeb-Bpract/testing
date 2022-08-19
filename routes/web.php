@@ -19,3 +19,8 @@ Route::get('/', function () {
 Route::get('/users', function () {
     return 'welcome users';
 });
+Route::get('/list', function () {
+    $x =10;
+    return $x;
+});
+
