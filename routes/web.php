@@ -21,7 +21,7 @@ Route::get('/users', function () {
     return 'welcome users';
 });
 Route::get('/list', function () {
-    $x =10;
+    $x =5;
     return $x;
 });
 Route::get('/declear variable',[UserController::class,'variable']);
