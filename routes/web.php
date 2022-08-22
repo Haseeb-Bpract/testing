@@ -25,4 +25,5 @@ Route::get('/list', function () {
     return $x;
 });
 Route::get('/declear variable',[UserController::class,'variable']);
+Route::get('/test',[TestController::class,'test']);
 
