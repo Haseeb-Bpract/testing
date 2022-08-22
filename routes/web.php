@@ -29,5 +29,7 @@ Route::get('/test',[TestController::class,'test']);
 
 Route::get('/list', function () {
     $x =5;
-    return $x;
+    $n =20;
+    return $x.$n;
 });
+
