@@ -36,8 +36,6 @@ Route::get('/list', function () {
 });
 Route::get('/new', function () {
     $y =15;
-
     return $y;
-
 });
 
