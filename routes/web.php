@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\UserController;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,5 +24,5 @@ Route::get('/list', function () {
     $x =10;
     return $x;
 });
-
+Route::get('/declear variable',[UserController::class,'variable']);
 
