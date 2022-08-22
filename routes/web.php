@@ -29,7 +29,9 @@ Route::get('/test',[TestController::class,'test']);
 
 Route::get('/list', function () {
     $x =5;
+
     $n =20;
     return $x.$n;
+
 });
 
